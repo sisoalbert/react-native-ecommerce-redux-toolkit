@@ -1,4 +1,5 @@
 <div id="top"></div>
+<img src="./demo.gif" align="center" height="130">
 
 <!-- GETTING STARTED -->
 ## Getting Started
