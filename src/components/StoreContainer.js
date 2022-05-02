@@ -10,10 +10,6 @@ import React, { useEffect, useState } from "react";
 import { addToCart } from "../redux/features/cart/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-import Data from "../../assets/cartItems";
-
-const url = "https://course-api.com/react-useReducer-cart-project";
-
 const StoreContainer = () => {
   const dispatch = useDispatch();
   const [Data, setData] = useState();
