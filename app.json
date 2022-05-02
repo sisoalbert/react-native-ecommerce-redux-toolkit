@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reduxToolkitStore",
-    "slug": "reduxToolkitStore",
+    "name": "expo-boilerplate-navigation-tab",
+    "slug": "expo-boilerplate-navigation-tab",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
