@@ -25,7 +25,7 @@ const Header = (props) => {
           style={{
             flexDirection: "row",
             alignItems: "center",
-            // backgroundColor: 'red',
+            backgroundColor: "white",
           }}
         >
           <TouchableOpacity
