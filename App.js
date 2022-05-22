@@ -3,15 +3,18 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 import RootNavigator from "./src/navigation/RootNavigator";
+import { PersistGate } from "redux-persist/integration/react";
 
 //Redux
 import { Provider } from "react-redux";
-import store from "./src/redux/store";
+import { store, appPersist } from "./src/redux/store";
 
 const App = () => {
   return (
     <Provider store={store}>
-      <RootNavigator />
+      <PersistGate loading={null} persistor={appPersist}>
+        <RootNavigator />
+      </PersistGate>
     </Provider>
   );
 };
