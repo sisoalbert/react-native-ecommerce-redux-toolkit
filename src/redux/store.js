@@ -20,9 +20,7 @@ const rootReducer = combineReducers({
 
 const store = configureStore({
   reducer: {
-    // products: productsReducer,
     cart: rootReducer,
-    // ui: uiReducer
   },
 });
 
